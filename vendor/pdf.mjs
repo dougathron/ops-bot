@@ -1,0 +1,1 @@
+export * from 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.4.168/build/pdf.mjs';
