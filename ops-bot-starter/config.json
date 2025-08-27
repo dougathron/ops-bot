@@ -1,0 +1,25 @@
+{
+  "passphrase_sha256": "",
+  "default_reply_style": "neutral",
+  "prompts": {
+    "find_section": {
+      "label": "Find a section = show procedures of section",
+      "fallback": "I couldn\u2019t find that section. Would you like me to suggest the closest matches?"
+    },
+    "find_procedure": {
+      "label": "Find a procedure = show sub-procedures of Procedure",
+      "fallback": "I couldn\u2019t find that procedure. Here are the closest matches.",
+      "no_subs": "Option A: Proceed step by step with available text. / Option B: Show related procedures."
+    },
+    "summarize_sop": {
+      "label": "Summarize a SOP = show flowchart of SOP",
+      "fallback": "No exact flowchart found. Please choose from the closest matches below.",
+      "image_note": "If the image cannot render here, use the link provided."
+    },
+    "who_does_what": {
+      "label": "Who does what = show RASCI Matrix of SOP",
+      "fallback": "No exact RASCI match found. Please choose from the closest matches below.",
+      "image_note": "If the image cannot render here, use the link provided."
+    }
+  }
+}

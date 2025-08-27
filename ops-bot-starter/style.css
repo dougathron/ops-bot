@@ -1,0 +1,15 @@
+*{box-sizing:border-box}body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;margin:0;background:#0b1020;color:#e9ecf1}
+header{display:flex;justify-content:space-between;align-items:center;padding:16px 20px;position:sticky;top:0;background:#0b1020;border-bottom:1px solid #1a2340}
+h1{font-size:20px;margin:0}h2{margin:0 0 8px 0}
+.card{background:#121a38;border:1px solid #1e2a55;border-radius:16px;padding:16px;margin:16px}
+.row{display:flex;gap:10px;align-items:center}
+input,select,button{border-radius:12px;border:1px solid #30407a;background:#0e1530;color:#e9ecf1;padding:10px}
+button{cursor:pointer}button:hover{background:#15204a}
+#answers .msg{background:#0e1530;border:1px solid #223063;border-radius:12px;padding:10px;margin:8px 0}
+.quick-prompts button{margin:4px 6px 0 0}
+.hidden{display:none}.hint{opacity:.8}
+#gate{max-width:420px;margin:12vh auto}
+#browser{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.tile{border:1px solid #223063;border-radius:10px;padding:10px;background:#0e1530}
+.tile h4{margin:0 0 6px 0}
+.link{color:#9ec3ff;text-decoration:none}
