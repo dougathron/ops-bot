@@ -63,8 +63,13 @@
 
   <script src="vendor/pdf.mjs" type="module"></script>
   <script src="vendor/docx.min.js"></script>
-  <script src="vector.js"></script>
-  <script src="rag.js"></script>
-  <script src="app.js"></script>
+  <script src="vendor/pdf.mjs" type="module"></script>
+  <script src="vendor/docx.min.js"></script>
+
+  <!-- Load only the app as a module; it imports rag.js and vector.js -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
+
 </body>
 </html>
